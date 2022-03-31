@@ -59,11 +59,11 @@ css文件源码来自bootstrap，链接： https://cdn.jsdelivr.net/npm/bootstra
 js文件源码来自jquery，链接： https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js  
 
 
-环境配置好之后，需要配置数据库环境，更改config.py中相应数据参数信息，然后通过Flask-Migrate插件将ORM模型映射到数据库中，具体参考`note.md`文件
-注：如无法启动项目请查看本地环境配置或在app.py中app.run()处指定IP和端口等信息如：
+环境配置好之后，需要配置数据库环境，更改config.py中相应数据参数信息，然后通过Flask-Migrate插件将ORM模型映射到数据库中，具体参考`note.md`文件  
+注：如无法启动项目请查看本地环境配置或在app.py中app.run()处指定IP和端口等信息如：  
 app.run(
         host="127.0.0.1",
         port=5000,
         debug=True
-    )
-此项目目前可扩展的地方还有很多，如用户注册时可上传头像等，（目前为写死的都是一个头像的图片）
+    )  
+此项目目前可扩展的地方还有很多，如用户注册时可上传头像等，（目前为写死的都是一个头像的图片）  
