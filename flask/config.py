@@ -13,7 +13,7 @@ HOSTNAME = '127.0.0.1'
 PORT     = '3306'
 DATABASE = 'flask_2'
 USERNAME = 'root'
-PASSWORD = 'Ry990910'
+PASSWORD = '*********'
 DB_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT, DATABASE)
 
 SQLALCHEMY_DATABASE_URI = DB_URI
@@ -28,6 +28,6 @@ MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
 MAIL_DEBUG = True
-MAIL_USERNAME = "1838521691@qq.com"
-MAIL_PASSWORD = "hfksunaphmlqfdga"
-MAIL_DEFAULT_SENDER = "1838521691@qq.com"
+MAIL_USERNAME = "183***691@qq.com"
+MAIL_PASSWORD = "*****************"
+MAIL_DEFAULT_SENDER = "183***691@qq.com"
