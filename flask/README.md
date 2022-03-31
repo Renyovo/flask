@@ -9,7 +9,7 @@
 │   ├── qa.py                                                   //问答模块蓝图  
 │   └── user.py                                                 //用户模块蓝图   
 ├── config.py                                                   //配置文件参数信息  
-├── decorators.py                                               //验证是否登录的装饰器
+├── decorators.py                                               //验证是否登录的装饰器  
 ├── exts.py                                                     //公共类（避免循环调用）  
 ├── migrations                                                  //ORM模型映射数据库时生成的文件  
 │   ├── README  
